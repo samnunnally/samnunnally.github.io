@@ -1,6 +1,6 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Sam Nunnally
+bio: I am a technologist and maker with 18 years of professional and technical experience in the Technology industry. Currently my focus has been on Enterprise Architecture, Automation, DevOps, Cloud and Mobility. I excel at designing and implementing scalable solutions using core principles, standards and design patterns such as Event Driven Architecture, Web APIs, Security, Service Oriented Architecture, Cloud, Web and Mobility.
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -10,7 +10,7 @@ description: A blog about technology and stuff related
 external-image: false
 picture: assets/images/profile.jpg
 
-url: https://koppl.in/indigo
+url: https://samnunnally.github.io/
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -29,21 +29,21 @@ highlighter: rouge
 disqus: mydisqus
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: samnunnally42
+twitter: SamNunnally42
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-stackoverflow: 7044681/mystackoverflow
-quora: userquora
-reddit: username
-medium: medium
-vimeo: myvimeo
-email: myemail@gmail.com
+linkedin: samnunnally
+youtube: channel/UCV7p-WmzdBLvaSy3LDlGUJw
+spotify: samnunnally
+github: samnunnally
+stackoverflow: 2958091/sam-nunnally
+quora: Sam-Nunnally
+reddit: samnunnally
+#medium: medium
+#vimeo: myvimeo
+email: sam@samnunnally.com
 
 authors:
     johndoe:
@@ -69,11 +69,11 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+# projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: false
-blog: true
+# blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
