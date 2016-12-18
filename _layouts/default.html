@@ -22,6 +22,8 @@ layout: compress
     {{ scss_sheet | scssify }}
     </style>
 
+    {% include analytics-google.html %}
+
     {% seo %}
 
 </head>
@@ -43,8 +45,6 @@ layout: compress
     </div>
 
     {% include icons.html %}
-
-    {% include analytics-google.html %}
 
 </body>
 </html>
