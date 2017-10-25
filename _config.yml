@@ -1,16 +1,25 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Sam Nunnally
+bio: |+
+  I am a technologist and builder with 18 years of professional and technical experience in the Technology industry. Currently my focus is Enterprise Architecture, Automation, DevOps and Cloud. I excel at designing and implementing scalable solutions using core principles, standards and design patterns such as Event Driven Architecture, Web APIs, Security, Service Oriented Architecture, Cloud, Web and Mobility.<br/>
+  <b>Guiding Principles</b><br/>
+  Lead by Example<br/>
+  Separation of Concerns<br/>
+  Principle of Least Astonishment<br/>
+  Murphy's Law<br/>
+  Occam's Razor<br/>
+  Don't repeat yourself<br/>
+
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: A blog about technology
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
 picture: assets/images/profile.jpg
 
-url: https://koppl.in/indigo
+url: https://samnunnally.github.io/
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -19,7 +28,7 @@ markdown: kramdown
 highlighter: rouge
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'UA-89118579-1'
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -29,21 +38,21 @@ highlighter: rouge
 disqus: mydisqus
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: samnunnally42
+twitter: SamNunnally42
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-stackoverflow: 7044681/mystackoverflow
-quora: userquora
-reddit: username
-medium: medium
-vimeo: myvimeo
-email: myemail@gmail.com
+linkedin: samnunnally
+youtube: channel/UCV7p-WmzdBLvaSy3LDlGUJw
+spotify: samnunnally
+github: samnunnally
+stackoverflow: 2958091/sam-nunnally
+quora: Sam-Nunnally
+reddit: samnunnally
+#medium: medium
+#vimeo: myvimeo
+email: sam@samnunnally.com
 
 authors:
     johndoe:
@@ -62,18 +71,18 @@ authors:
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+# projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: false
-blog: true
+blog: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -97,7 +106,7 @@ sass:
     sass_dir: _sass
     style: :compressed
 
-gems:
+plugins:
   - jemoji
   - jekyll-mentions
   - jekyll-seo-tag
